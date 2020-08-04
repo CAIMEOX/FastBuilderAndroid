@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastBuilder</string>
+    <string name="base_process">正在启动...</string>
+    <string name="license_title">开放源代码许可</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_home">FastBuilder</string>
+    <string name="menu_local_service">本地服务</string>
+    <string name="menu_fastbuilder_cloud">云服务</string>
+    <string name="action_licenses">开放源代码许可</string>
+    <string name="action_settings">设置</string>
+    <string name="menu_sign_out">退出登录</string>
+    <string name="menu_username">未登录</string>
+    <string name="menu_tools">工具</string>
+    <string name="main_title">FastBuilder 的本领\n突飞猛进</string>
+    <string name="button_start">启动服务</string>
+    <string name="button_stop">停止服务</string>
+    <string name="no_permission">无权限</string>
+    <string name="need_login">请先登录到 FastBuilder Pro Catalina。</string>
+    <string name="test_plan">BuShe 创意云测试计划</string>
+    <string name="test_plan_more">加入 BuShe Creative Cloud 测试计划，体验最新的 FastBuilder Catalina 版本。 当然，还有最新的 FastBuilder 内核。</string>
+    <string name="SINV">服务暂时不可用。</string>
+    <string name="bushe_id">BuShe ID</string>
+    <string name="SINVM">FastBuilder Cloud 将伴随 BuShe Creative Cloud 一同发布。</string>
+</resources>

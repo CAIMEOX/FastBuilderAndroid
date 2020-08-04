@@ -1,0 +1,2 @@
+include ':app', ':bushe_application_security'
+rootProject.name='FastBuilder'

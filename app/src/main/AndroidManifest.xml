@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.bushe.fastbuilder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:name=".SophixStubApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="28241933" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="c6097ae1405409634fafc8487bfeb66c" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCYdCZk6y9G6CiW8CkdRQS+8wn9M6USZXNxOPIZo62TmZN3YBe2Gv5326EnMMWdYyI2jDQ+lHTqm+ffIGSqaGBftpDkLS10bj7ziolDl97dN5dwA7alXqv6HB59lmSNkNOBFJwTgwEgSZkZEtgAx3/RoGUZPW/YC93JVuDbaeTGyGS9o6ocCkMool56jcDzT9LTeOhu9yM4ykJ7KI9ZtNzslNhCIWKrpBouALjohYsnb62L7OWks0oyiALS/c7/RegYu57EnwprJgOfW6ktIUK0WDPPTPn2ntLjI+l4pSr8LAq5xQaNJfkFSGuJEdgH7GWQhX2YyJkeugyaPp32ySVnAgMBAAECggEBAIRNOAyYdPzJ+H+Uh3mZLdcwP1j2+qgOVrLJQoCxpK7Utj8Aq1Mj9fW6Kg5Cqxw8rbI81hIA772x8vWVvQaNciVd4DvEYRALpKHhdeGs6IF9/vP8pQK6N/Djeipu23BnYMVCR3g/VjjY5f32dnGmr+wRj+rpgCgzlBNoS9bd/OXsJrEoyCFrd76sAmn6+dbZBE1woyBEJ6jvtCKzBM8fDqdmSVmRFQVB2ctYX0JGj4ZzJbUsmGvby26DTasjrNEM2bJxj3CVgofK7zBh1X+URX9pNq9WJ+RRhKPmFPGvrhogSscNo1YqjRelvipy8UhiM0FbKN98SnuDrPeXm+X2DaECgYEA0ux3VTlFtb56AGm36T+pzQtTpDFsSAcHQngAAXgeyKuTpBKhDQKFmQ13J3PwgPSsBntt+tZhTsdX7p3aH+vbNzpBx/i6G8TntqJq2ULMM6DqVrjcDturJqaGnFvuiIOG+WGFV6TCCxxbT5FWvVqm3mQs/zqxykZkysHVYnfEo7kCgYEAuQjRsKeo/a6z5inWbbV0Quot42XinI0TUsBNPbShC4UDZaUpAAdXyBr0hb/aCOgKq+WyfAn1uqnSqSGt42TvQZgXALFZ3ikDlTwrKn2e77aOwf9BmLIRa9h1wlLp7lgQQTaT/REuNzJ4wS/kPwW7J4jAxFJqs3qQVBivb2Dw4h8CgYAdHeWPTzuvTh8bZXys50vycUjXlrcC7m1zIIunqERfoUfdU3EGEb4Nlc1IFfoyYxRIRMu239dI/73Ew+ezlmSJqDIif9R5NuJh1OP5H/5+dg1DcXt3VZ231S8p8IrqL3X3gR3eLnFXBVAZmM+njhcRBjUr+pdGfBc34jApyqzLiQKBgFiAQVtPNeLwVpd111vt+EexHnWvW64pQ97Gn6st5AFQg4lwb6XV3USWr/HxC2ZLJh+F49K0KNY5N8sxkqw6sL0c85OfQC6kS1RrzPGr2AMrvChJ4KQaN37vr5NceQtJD61BX5MhTouUFnHAaFlEcnm8TQcZrHNf4fx3OiH5qf1dAoGAVRsaOu7/6ZRFOoLOyOs91VpFTQYsxdPsJUbMnig6jqhynZUCCTO9wffKqS6ax++JTmIHEPHEZ1e2/awMBJaCGKiFL5aC9P6I6vYzyIBhfhsg1DGckm/VAg7UHGXn2Q9d4pPhd7pCOEAgkcXcx/gvP4Dqlymt25DJ1O+lFDPSU7E=" />
+        <service
+            android:name=".Core.Golang.GoBuilderService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="io.bushe.fastbuilder.BmobContentProvider"
+            android:exported="false" />
+
+        <activity
+            android:name=".UI.Activity.MainActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="FastBuilder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".UI.Activity.BaseActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.Activity.BuSheIDActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="BuShe ID"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="InnerclassSeparator" />
+    </application>
+
+</manifest>

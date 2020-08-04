@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="io.bushe.fastbuilder.UI.Activity.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_local"
+        android:name="io.bushe.fastbuilder.UI.Activity.ui.local.LocalFragment"
+        android:label="@string/menu_local_service"
+        tools:layout="@layout/fragment_local" />
+
+    <fragment
+        android:id="@+id/nav_cloud"
+        android:name="io.bushe.fastbuilder.UI.Activity.ui.cloud.CloudFragment"
+        android:label="@string/menu_fastbuilder_cloud"
+        tools:layout="@layout/fragment_cloud" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="io.bushe.fastbuilder.UI.Activity.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="io.bushe.fastbuilder.UI.Activity.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about"/>
+</navigation>

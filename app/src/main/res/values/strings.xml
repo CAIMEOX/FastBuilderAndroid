@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FastBuilder</string>
+    <string name="action_licenses">Open Source Notices</string>
+    <string name="action_settings">Settings</string>
+    <string name="license_title">Open Source Notices</string>
+    <string name="base_process">Starting</string>
+    <string name="nav_header_title" translatable="false">FastBuilder</string>
+    <string name="nav_header_subtitle" translatable="false">FastBuilder Catalina</string>
+
+    <string name="menu_home">Catalina</string>
+    <string name="menu_local_service">Local Service</string>
+    <string name="menu_fastbuilder_cloud">Cloud Service</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="menu_username">Not logged in</string>
+    <string name="menu_about">About</string>
+    <string name="main_title">The power of FastBuilder.\nTaken further.</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="no_permission">No Permission</string>
+    <string name="need_login">Please log in to FastBuilder Catalina Pro first.</string>
+    <string name="bushe_id">BuShe ID</string>
+    <string name="test_plan">BuShe Creative Cloud Beta Program</string>
+    <string name="test_plan_more">Join the BuShe Creative Cloud beta program to experience the latest version of FastBuilder Catalina. Of course, there is also the latest FastBuilder kernel.</string>
+    <string name="SINV">Service Is Not Available</string>
+    <string name="SINVM">FastBuilder Cloud will be released with BuShe Creative Cloud.</string>
+</resources>
